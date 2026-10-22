@@ -438,6 +438,11 @@ macro_rules! iint_impl {
             pub fn abs(x: $Self) -> $Self {
                 if x < 0 { -x } else { x }
             }
+            /// See [`std::primitive::i8::unsigned_abs`] (and similar for other signed integer types)
+            pub fn unsigned_abs(x: $Self) -> $USelf {
+                // `-(x + 1)` cannot overflow, even for `x == MIN`.
+                if x < 0 { (-(x + 1)) as $USelf + 1 } else { x as $USelf }
+            }
             /// See [`std::primitive::u8::rotate_right`] (and similar for other integer types)
             #[cfg_attr(hax_backend_fstar, hax_lib::opaque)]
             pub fn rotate_right(x: $Self, n: core::primitive::u32) -> $Self {

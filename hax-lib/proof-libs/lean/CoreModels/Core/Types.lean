@@ -712,134 +712,134 @@ structure num.error.ParseIntError where
   kind : num.error.IntErrorKind
 
 /-- [core_models::num::u8]
-    Source: 'core-models/src/core/num/mod.rs', lines 578:0-578:14
+    Source: 'core-models/src/core/num/mod.rs', lines 583:0-583:14
     Visibility: public -/
 @[reducible]
 def num.u8 := Unit
 
 /-- [core_models::num::u16]
-    Source: 'core-models/src/core/num/mod.rs', lines 581:0-581:15
+    Source: 'core-models/src/core/num/mod.rs', lines 586:0-586:15
     Visibility: public -/
 @[reducible]
 def num.u16 := Unit
 
 /-- [core_models::num::u32]
-    Source: 'core-models/src/core/num/mod.rs', lines 584:0-584:15
+    Source: 'core-models/src/core/num/mod.rs', lines 589:0-589:15
     Visibility: public -/
 @[reducible]
 def num.u32 := Unit
 
 /-- [core_models::num::u64]
-    Source: 'core-models/src/core/num/mod.rs', lines 587:0-587:15
+    Source: 'core-models/src/core/num/mod.rs', lines 592:0-592:15
     Visibility: public -/
 @[reducible]
 def num.u64 := Unit
 
 /-- [core_models::num::u128]
-    Source: 'core-models/src/core/num/mod.rs', lines 590:0-590:16
+    Source: 'core-models/src/core/num/mod.rs', lines 595:0-595:16
     Visibility: public -/
 @[reducible]
 def num.u128 := Unit
 
 /-- [core_models::num::usize]
-    Source: 'core-models/src/core/num/mod.rs', lines 593:0-593:17
+    Source: 'core-models/src/core/num/mod.rs', lines 598:0-598:17
     Visibility: public -/
 @[reducible]
 def num.usize := Unit
 
 /-- [core_models::num::i8]
-    Source: 'core-models/src/core/num/mod.rs', lines 596:0-596:14
+    Source: 'core-models/src/core/num/mod.rs', lines 601:0-601:14
     Visibility: public -/
 @[reducible]
 def num.i8 := Unit
 
 /-- [core_models::num::i16]
-    Source: 'core-models/src/core/num/mod.rs', lines 599:0-599:15
+    Source: 'core-models/src/core/num/mod.rs', lines 604:0-604:15
     Visibility: public -/
 @[reducible]
 def num.i16 := Unit
 
 /-- [core_models::num::i32]
-    Source: 'core-models/src/core/num/mod.rs', lines 602:0-602:15
+    Source: 'core-models/src/core/num/mod.rs', lines 607:0-607:15
     Visibility: public -/
 @[reducible]
 def num.i32 := Unit
 
 /-- [core_models::num::i64]
-    Source: 'core-models/src/core/num/mod.rs', lines 605:0-605:15
+    Source: 'core-models/src/core/num/mod.rs', lines 610:0-610:15
     Visibility: public -/
 @[reducible]
 def num.i64 := Unit
 
 /-- [core_models::num::i128]
-    Source: 'core-models/src/core/num/mod.rs', lines 608:0-608:16
+    Source: 'core-models/src/core/num/mod.rs', lines 613:0-613:16
     Visibility: public -/
 @[reducible]
 def num.i128 := Unit
 
 /-- [core_models::num::isize]
-    Source: 'core-models/src/core/num/mod.rs', lines 611:0-611:17
+    Source: 'core-models/src/core/num/mod.rs', lines 616:0-616:17
     Visibility: public -/
 @[reducible]
 def num.isize := Unit
 
 /-- [core_models::num::{core_models::num::u8}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 627:0-633:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 632:0-638:1 -/
 @[reducible]
 def num.U8.to_le_bytes.closure := Std.U8
 
 /-- [core_models::num::{core_models::num::u16}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 635:0-641:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 640:0-646:1 -/
 @[reducible]
 def num.U16.to_le_bytes.closure := Std.U16
 
 /-- [core_models::num::{core_models::num::u32}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 643:0-649:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 648:0-654:1 -/
 @[reducible]
 def num.U32.to_le_bytes.closure := Std.U32
 
 /-- [core_models::num::{core_models::num::u64}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 651:0-657:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 656:0-662:1 -/
 @[reducible]
 def num.U64.to_le_bytes.closure := Std.U64
 
 /-- [core_models::num::{core_models::num::u128}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 659:0-665:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 664:0-670:1 -/
 @[reducible]
 def num.U128.to_le_bytes.closure := Std.U128
 
 /-- [core_models::num::{core_models::num::usize}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 667:0-676:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 210:54-213:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 672:0-681:1 -/
 @[reducible]
 def num.Usize.to_le_bytes.closure := Std.Usize
 
 /-- [core_models::num::{core_models::num::i8}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 496:54-500:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 678:0-686:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 501:54-505:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 683:0-691:1 -/
 @[reducible]
 def num.I8.to_le_bytes.closure := Std.I8
 
 /-- [core_models::num::{core_models::num::i16}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 496:54-500:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 688:0-696:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 501:54-505:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 693:0-701:1 -/
 @[reducible]
 def num.I16.to_le_bytes.closure := Std.I16
 
 /-- [core_models::num::{core_models::num::i32}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 496:54-500:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 698:0-706:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 501:54-505:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 703:0-711:1 -/
 @[reducible]
 def num.I32.to_le_bytes.closure := Std.I32
 
 /-- [core_models::num::{core_models::num::i64}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 496:54-500:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 708:0-716:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 501:54-505:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 713:0-721:1 -/
 @[reducible]
 def num.I64.to_le_bytes.closure := Std.I64
 
 /-- [core_models::num::{core_models::num::i128}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 496:54-500:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 718:0-726:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 501:54-505:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 723:0-731:1 -/
 @[reducible]
 def num.I128.to_le_bytes.closure := Std.I128
 
 /-- [core_models::num::{core_models::num::isize}::to_le_bytes::{closure}]
-    Source: 'core-models/src/core/num/mod.rs', lines 496:54-500:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 728:0-737:1 -/
+    Source: 'core-models/src/core/num/mod.rs', lines 501:54-505:17; this code is generated from a macro invocation at: 'core-models/src/core/num/mod.rs', lines 733:0-742:1 -/
 @[reducible]
 def num.Isize.to_le_bytes.closure := Std.Isize
 
