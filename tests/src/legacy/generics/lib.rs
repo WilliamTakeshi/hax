@@ -76,7 +76,7 @@ mod impl_generics {
     }
 }
 
-/// See https://github.com/cryspen/hax/issues/1289
+/// See https://github.com/pereq-dev/hax/issues/1289
 mod assoc_const_param {
     struct Test<const N: usize>();
 

@@ -100,7 +100,7 @@ let constants
 /// From issue https://github.com/hacspec/hax/issues/839
 let string_shadows (v_string n: string) : Prims.unit = ()
 
-/// From issue https://github.com/cryspen/hax/issues/1450
+/// From issue https://github.com/pereq-dev/hax/issues/1450
 let items_under_closures (_: Prims.unit) : Prims.unit =
   let _: Prims.unit -> Prims.unit =
     fun temp_0_ ->
