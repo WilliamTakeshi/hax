@@ -97,7 +97,7 @@ let constants
     : usize =
   (f_ASSOCIATED_CONSTANT #FStar.Tactics.Typeclasses.solve <: usize) +! v_INHERENT_CONSTANT
 
-/// From issue https://github.com/hacspec/hax/issues/839
+/// From issue https://github.com/pereq-dev/hax/issues/839
 let string_shadows (v_string n: string) : Prims.unit = ()
 
 /// From issue https://github.com/pereq-dev/hax/issues/1450

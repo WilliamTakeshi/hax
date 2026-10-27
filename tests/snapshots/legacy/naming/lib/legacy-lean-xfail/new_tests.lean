@@ -216,7 +216,7 @@ end new_tests.legacy__naming__lib.ambiguous_names
 
 namespace new_tests.legacy__naming__lib
 
---  From issue https://github.com/hacspec/hax/issues/839
+--  From issue https://github.com/pereq-dev/hax/issues/839
 @[spec]
 def string_shadows (string : String) (n : String) :
     RustM rust_primitives.hax.Tuple0 := do

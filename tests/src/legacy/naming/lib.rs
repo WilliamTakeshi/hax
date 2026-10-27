@@ -161,7 +161,7 @@ mod ambiguous_names {
     }
 }
 
-/// From issue https://github.com/hacspec/hax/issues/839
+/// From issue https://github.com/pereq-dev/hax/issues/839
 fn string_shadows(string: &str, n: &str) {}
 
 /// From issue https://github.com/pereq-dev/hax/issues/1411

@@ -400,7 +400,7 @@ fn run_engine(
 /// then this function taints the hax version with the hash of the
 /// current executable. This makes sure cargo doesn't cache across
 /// different versions of hax, for more information see
-/// https://github.com/hacspec/hax/issues/801.
+/// https://github.com/pereq-dev/hax/issues/801.
 fn get_hax_version() -> String {
     let mut version = hax_types::HAX_VERSION.to_string();
     if env!("HAX_GIT_IS_DIRTY") == "true" {

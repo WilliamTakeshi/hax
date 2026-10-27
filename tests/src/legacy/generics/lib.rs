@@ -55,7 +55,7 @@ mod defaults_generics {
     fn f(_: Defaults) {}
 }
 
-/// See https://github.com/hacspec/hax/issues/1176
+/// See https://github.com/pereq-dev/hax/issues/1176
 mod impl_generics {
     struct Test();
 

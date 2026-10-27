@@ -1137,7 +1137,7 @@ struct
                          | _ ->
                              (* TODO: this might generate bad code,
                                 see
-                                https://github.com/hacspec/hax/issues/402
+                                https://github.com/pereq-dev/hax/issues/402
                              *)
                              None
                        in
@@ -1593,7 +1593,7 @@ struct
                   let typ = pgeneric_constraint_type e.span c in
                   Some (F.id name, None, [ F.Attrs.no_method ], typ)
               | GCProjection _ ->
-                  (* TODO: Not yet implemented, see https://github.com/hacspec/hax/issues/785 *)
+                  (* TODO: Not yet implemented, see https://github.com/pereq-dev/hax/issues/785 *)
                   None
               | _ -> .)
         in
